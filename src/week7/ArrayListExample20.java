@@ -17,13 +17,13 @@ class Book {
 	
 	public String toString() {
 		
-		String data = "id:" + id + ", name:" + name + 
-				", author:" + author + ", publisher:" +
-				publisher + ", quantity:" + quantity;
-		
+		String data = "id:" + id + ", name:" + name +
+				", author:" + author + ", publisher:" + publisher +
+				", quntity:" + quantity;
 		return data;
 		
 	}
+	
 }
 
 public class ArrayListExample20 {

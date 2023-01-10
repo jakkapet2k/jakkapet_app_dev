@@ -11,9 +11,6 @@ public class ArrayListExample1 {
 		list.add("Apple");
 		list.add("Banana");
 		list.add("Grapes");
-		list.add("Papaya");
-		list.add("Tun");
-		list.add("Oren");
 		// Printing the arraylist object
 		System.out.println(list);
 	}

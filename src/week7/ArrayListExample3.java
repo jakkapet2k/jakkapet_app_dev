@@ -4,6 +4,8 @@ package week7;
 
 import java.util.*;
 
+
+
 public class ArrayListExample3 {
 	public static void main(String args[]) {
 		ArrayList<String> list = new ArrayList<String>();// Creating arraylist
