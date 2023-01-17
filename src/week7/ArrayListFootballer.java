@@ -19,9 +19,9 @@ class Footballer {
 	
 	public String toString() {
 		
-		String data = "id:" + id + ", name:" + name +
-				", surname:" + surname + ", position:" + position +
-				", age:" + age + ", price:" + price;
+		String data = " id:" + id + "\n name:" + name +
+				"\n surname:" + surname + "\n position:" + position +
+				"\n age:" + age + "\n price:" + price + " M.";
 		return data;
 		
 	}
@@ -34,10 +34,10 @@ public class ArrayListFootballer {
 		// Creating list of Books
 		List<Footballer> list = new ArrayList<Footballer>();
 		// Creating Books
-		Footballer f1 = new Footballer(1, "DAVID", "DE GEA", "GOALKEEPERS", 32, 3600000);
-		Footballer f2 = new Footballer(2, "VICTOR", "LINDELOFVICTOR ", "DEFENDERS", 28, 5200000);
-		Footballer f3 = new Footballer(8, "BRUNO", "DE FERNANDESBRUNO ", "MIDFIELDERS", 28, 6500000);
-		Footballer f4 = new Footballer(9, "ANTHONY", "MARTIALANTHONY ", "FORWARDS", 27, 9800000);
+		Footballer f1 = new Footballer(1, "DAVID", "DE GEA", "GOALKEEPERS", 32, 36);
+		Footballer f2 = new Footballer(2, "VICTOR", "LINDELOFVICTOR ", "DEFENDERS", 28, 40);
+		Footballer f3 = new Footballer(8, "BRUNO", "DE FERNANDESBRUNO ", "MIDFIELDERS", 28, 60);
+		Footballer f4 = new Footballer(9, "ANTHONY", "MARTIALANTHONY ", "FORWARDS", 27, 95);
 		// Adding Books to list
 		list.add(f1);
 		list.add(f2);
@@ -45,7 +45,7 @@ public class ArrayListFootballer {
 		list.add(f4);
 		// Traversing list
 		for (Footballer b : list) {
-			System.out.println("players:" + b.toString());
+			System.out.println("\n players: \n " +"------------\n"+ b.toString());
 			//System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);
 		}
 	}
