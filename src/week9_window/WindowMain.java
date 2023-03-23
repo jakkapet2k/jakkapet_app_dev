@@ -22,17 +22,20 @@ public class WindowMain {
 		
 		
 		AddPage addpage = new AddPage();
-//		frame.add(addpage);
+		frame.add(addpage);
 //		frame.getContentPane().add(addpage);
 		
 		ViewPage viewpage = new ViewPage();
-//		frame.add(viewpage);
-		frame.getContentPane().add(viewpage);
+		frame.add(viewpage);
+//		frame.getContentPane().add(viewpage);
 		
 		JMenuBar jMenuBar = new JMenuBar();
 		JMenu jMenu = new JMenu("Manage Data");
+		
 		JMenuItem jMenuItem = new JMenuItem("Main Page");
 		frame.setJMenuBar(jMenuBar);
+		
+		
 //		 jMenuItem = new JMenuItem("View Page");
 		
 		jMenu.add(jMenuItem);
